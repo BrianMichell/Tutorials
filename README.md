@@ -5,6 +5,7 @@ In these tutorials I will try to explain everything throughly. If I missed anyth
 Variables
 
   Why variables?
+  
     Variables are useful when you do not know something for sure or you intend to change the data at a later date. 
   How does this help me?
     Variables can be used for things such as the heading of the robot, or what position the pneumatics are in at that moment.
