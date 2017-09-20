@@ -3,6 +3,7 @@
 In these tutorials I will try to explain everything throughly. If I missed anything or you need clarification on anything, please contact me.
 
 Variables
+
   Why variables?
     Variables are useful when you do not know something for sure or you intend to change the data at a later date. 
   How does this help me?
