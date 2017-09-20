@@ -14,7 +14,7 @@ Constants:
   How does this help me?
     Constants are used for things such as the field dimensions.
 Loops:
-  while loops:
+  while loops
     While loops look at a boolean expression before determining if it should execute a piece of code. If the boolean expression it true
     the code inside will be run until the expression becomes false. After it becomes false it does not matter if it changes at a later time.
     The code inside will not be run anymore.
