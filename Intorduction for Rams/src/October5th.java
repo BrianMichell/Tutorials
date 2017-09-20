@@ -6,7 +6,7 @@ public class October5th {
 		 * A variable can contain anything.
 		 * These are all examples of variables.
 		 * They can be named anything with the exception of being named the same thing as a Java keyword
-		 * 		For example, I can not make an integer variable called Integer.
+		 * 		For example, I can not make a variable called Integer.
 		 * Variables are called variables because they are changeable.
 		 */
 		
@@ -21,6 +21,7 @@ public class October5th {
 		 * They are generally named in all capital letters with underscores to denote spaces.
 		 * This differs from the variables starting with a lower-case letters and being camelcase
 		 * 		camelcase is the practice of capitalizing the beginning of a word to replace spaces
+		 * Constants are made constant by putting final as the first thing in their declaration.
 		 */
 		
 		final int FIELD_LENGTH = 54;
@@ -28,6 +29,9 @@ public class October5th {
 		/*
 		 * There are 2 types of loops in Java
 		 * Each has its own use, although they are interchangeable
+		 * 
+		 * Boolean expressions are anything that would be true or false, including the keywords true and false
+		 * Other expressions contain greater than, less than, and equality.
 		 */
 		
 		while(true) {
@@ -42,9 +46,6 @@ public class October5th {
 		/*
 		 * Java is an object oriented programming language. You will sometimes see this abbreviated as OOP
 		 * An object is a reference to another class that has its own functions and variables.
-		 */
-		
-		/*
 		 * The code below will do nothing because it lacks what it needs to make it an object.
 		 * Making classes is a little more advanced, so we will not talk about that yet.
 		 */
