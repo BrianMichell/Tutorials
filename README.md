@@ -13,14 +13,14 @@ Constants:
     being changed by rogue code (or a rogue programmer) randomly in your program.
   How does this help me?
     Constants are used for things such as the field dimensions.
-Loops:
+Loops
   while loops
     While loops look at a boolean expression before determining if it should execute a piece of code. If the boolean expression it true
     the code inside will be run until the expression becomes false. After it becomes false it does not matter if it changes at a later time.
     The code inside will not be run anymore.
     
     While loops are useful for when you are unsure of when something will end, if ever.
-  for loops:
+  for loops
     For loops are composed of 3 parts. The first part is the variable. The variable does not have to be declared inside the loop, but it does
     have to be declared. The second part is the boolean expression that will end them. Much like a while loop, for loops will run until their 
     boolean expression changes. Unlike while loops, for loops terminate when their expression becomes true. The third part is how the loop will
