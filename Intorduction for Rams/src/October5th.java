@@ -1,3 +1,26 @@
+/*
+ * Comments are useful for a few reasons.
+ * The first is because they allow you to explain what your code is doing.
+ * This is important because when you start working on the same project over a period of time you will not remember 
+ * what you were trying to do.
+ * Another reason is that they stop code from running.
+ * This is helpful for when you have something that you know works, but you want to try something else.
+ * It is never a good idea to delete working code. This saves the code for you.
+ * 
+ * Comments come in 3 forms.
+ * 1: Single line comments
+ * 		Single line comments are made by 2 slashes (//)
+ * 2: Block comments
+ * 		Block comments are good for large bodies of text or saving large portions of code.
+ * 		They are made by one slash and asterisk (/*) at the beginning and one asterisk and slash (* /) at the end
+ * 3: Javadoc
+ * 		Javadocs are unique to Java. They go before a method you are writing and contain fields based on what the method contains.
+ * 		You can also include a block comment inside a javadoc. Use this to describe the method you are writing.
+ * 		Try to keep the description of things after the @ signs concise. This should just briefly describe what they are.
+ * 		Javadocs are made with one slash and 2 asterisks (/**) and ended with one asterisk and slash(* /)
+ * 		(example below)
+ */
+
 
 public class October5th {
 	
@@ -24,7 +47,11 @@ public class October5th {
 		 * Constants are made constant by putting final as the first thing in their declaration.
 		 */
 		
+		final String TEAM_NAME="RoboRams";
 		final int FIELD_LENGTH = 54;
+		final double PI = 3.14;
+		final char CHARACTER ='B';
+		final boolean ON = false; // It makes more sense just to use true or false rather than a final boolean
 		
 		/*
 		 * There are 2 types of loops in Java
@@ -35,12 +62,12 @@ public class October5th {
 		 */
 		
 		while(true) {
-			//Do something
-			break; //This allows the code to actually run. A break is not needed, nor is it recommended, in loops.
+			// Do something
+			break; //This allows the code to actually run. A break is not needed, nor is it recommended, in loops most of the time.
 		}
 		
 		for(int i=0; i<10; i++) {
-			//Do something else
+			// Do something else
 		}
 		
 		/*
@@ -65,6 +92,16 @@ public class October5th {
 		System.out.println("This is a print line");
 		System.out.print("This is just a print");
 		
+	}
+	
+	/**
+	 * This method does nothing.
+	 * It will return an unchanged integer.
+	 * @param i The integer you want unchanged
+	 * @return The unchanged integer
+	 */
+	public static int doNothing(int i) {
+		return i;
 	}
 
 }
