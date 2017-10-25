@@ -1,4 +1,4 @@
-# Tutorials
+# Basics
 
 In these tutorials I will try to explain everything throughly. If I missed anything or you need clarification on anything, please contact me.
 
@@ -59,3 +59,23 @@ Output
     Sometimes it is hard to tell what your program is doing and you need to see what's going on. It can help you see if code is reaching
     a certian point or if variables are changing in the way that you would expect. It would suprise you how things don't work the same way in the 
     computer as they do in your head.
+
+
+# Autonomous
+
+How do I write a autonomous program?
+
+The method to writing your autonomous (or any program) is called test driven development. This is the widly accepted method for software engineering.
+
+Start off big 
+Define the entire problem you want to solve. If you can put words on what you want to do then you can do it (as long as it does not violate the laws of physic!).
+  
+Take that large problem break it down into smaller parts. These parts should do a single thing such as drive forward.
+
+The last step you need to take before you can start writing code is develop tests. Write a test for every imaginable situation (everything perfect, low battery, missing sensor).
+
+Now write a method for each of those small problems. Once you finish one of those methods test it with all of your testcases.
+
+Once you finish all of your small methods you are ready to put it all together and see if all those small methods still work. If they do not, look at what went wrong and what you can do to make those perfected methods mesh better. Remember, you tested your methods already. You should only alter the methods if you realize you missed a test.
+
+Now you have written an autonomous program that should work.
